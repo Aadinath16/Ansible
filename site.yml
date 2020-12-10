@@ -1,0 +1,4 @@
+---
+  - name: practising ansible module
+    import_playbook: plays/module.yml
+

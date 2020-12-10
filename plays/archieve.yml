@@ -1,0 +1,5 @@
+---
+  - name: Compressing Folder
+    hosts: localhost
+    roles:
+      -  { role: archive }

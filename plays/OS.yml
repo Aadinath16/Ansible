@@ -1,0 +1,4 @@
+---
+  - name: To show the OS version
+    roles:
+        - { role: OS }

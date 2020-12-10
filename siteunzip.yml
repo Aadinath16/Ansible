@@ -1,0 +1,3 @@
+---
+  - name: Extraxt the copressed files
+    import_playbook: plays/unzip.yml

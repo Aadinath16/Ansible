@@ -1,0 +1,4 @@
+---
+  - name: Renaming directory name
+    import_playbook: plays/rename.yml
+

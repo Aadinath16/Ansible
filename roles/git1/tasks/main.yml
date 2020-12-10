@@ -1,0 +1,40 @@
+---
+# tasks file for git1
+  - name: Make Directory ans1
+    command: mkdir /home/adinath/ans1
+    register: cp1
+
+  - debug:
+      msg: "{{ cp1.stdout }}"
+
+  - debug:
+      msg: "{{ cp1.stderr }}"
+   
+
+#  - name: copy "abc.yml" in "ans"
+#    copy:
+#      src: /home/adinath/ansible/abc.yml
+#      dest: /home/adinath/ans
+#    register: cp2
+    
+#  - debug:
+#       msg: "{{ cp2 }}"
+
+#  - name: copy playbook "git1.yml" in "ans"
+#    copy:
+#      src: /home/adinath/ansible/plays/git1.yml
+#      dest: /home/adinath/ans
+#    register: cp3
+  
+#  - debug:
+#       msg: "{{ cp3 }}"
+
+#  - name: copy "tasks.yml" in "ans"
+#    copy:
+#      src: /home/adinath/ansible/roles/git1/tasks
+#      dest: /home/adinath/ans
+#    register: cp4
+    
+#  - debug:
+#       msg: "{{ cp4 }}"
+

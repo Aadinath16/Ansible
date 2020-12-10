@@ -1,0 +1,3 @@
+---
+  - name: Showing port 22 is running or not
+    import_playbook: plays/port.yml

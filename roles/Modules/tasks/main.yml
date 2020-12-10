@@ -1,0 +1,23 @@
+---
+# tasks file for Modules
+#  - name: Module- renaming file name
+#    copy: 
+#       src: /home/adinath/ansible/git.yml
+#      dest: /home/adinath/ansible/sitegit.yml
+
+  - name: Module- delting file
+    file:
+       path: /home/adinath/compressed
+       state: absent 
+       become: true
+
+#  - name: Module- delting file
+#    file:
+#       path: /home/adinath/hello
+#       state: absent
+
+#  - name: Module- delting file
+#    file:
+#       path: /home/adinath/Xyz
+#       state: absent
+

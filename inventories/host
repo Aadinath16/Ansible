@@ -1,0 +1,5 @@
+[ansible]
+192.168.233.129 ansible_connection=ssh loalhost_user=adinath ansible_password=adinath@16
+
+[windows]
+192.168.127.1 windows_connection=ssh localhost_user=adinath windows_psssword=adinath@16

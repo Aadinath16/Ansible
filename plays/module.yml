@@ -1,0 +1,5 @@
+---
+  - name: Modules
+    hosts: localhost
+    roles:
+       - { role: Modules }

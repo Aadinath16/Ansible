@@ -1,0 +1,4 @@
+---
+  - name: Installing latest version of Jenkins
+    import_playbook: plays/jenkins.yml
+

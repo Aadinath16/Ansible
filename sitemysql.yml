@@ -1,0 +1,3 @@
+---
+  - name: Installing Latest Version of mySQL server
+    import_playbook: plays/mysql.yml

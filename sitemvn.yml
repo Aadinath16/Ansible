@@ -1,0 +1,4 @@
+---
+  - name: Installing Latest version of MAVEN
+    import_playbook: plays/mvn.yml
+

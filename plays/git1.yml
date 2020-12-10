@@ -1,0 +1,6 @@
+---
+  - name: Ansible config in git
+    hosts: localhost    
+    roles:
+       - { role: git1 }
+

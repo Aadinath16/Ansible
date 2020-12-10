@@ -1,0 +1,5 @@
+---
+  - name: Showing port 22
+    hosts: localhost
+    roles:
+        - { role: port }

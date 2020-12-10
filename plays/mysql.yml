@@ -1,0 +1,4 @@
+---
+  - name: Installing latest version of mySQL server
+    roles:
+        - { role: mysql }

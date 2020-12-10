@@ -1,0 +1,19 @@
+---
+# tasks file for unzip
+  - name: Extracting files
+    unarchive:
+         src: /home/adinath/Xyz/hello.tgz
+         dest: /home/adinath/Xyz
+
+#  - name: Extracting multiple files
+#    unarchive:
+#         src: /home/adinath/compressed/file.zip
+#         dest: /home/adinath/compressed
+#         remote_src: yes
+
+  - name: Extracting multiple files
+    unarchive:
+         src: /home/adinath/compressed/file.tar.bz2
+         dest: /home/adinath/compressed
+         remote_src: yes
+

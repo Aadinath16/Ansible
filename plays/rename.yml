@@ -1,0 +1,5 @@
+---
+  - name: Renaming directory name
+    hosts: localhost
+    roles:
+       - { role: Rename }

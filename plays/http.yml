@@ -1,0 +1,5 @@
+---
+  - name: Installing Latest version of http
+    host: localhost
+    roles:
+         - { role: http }

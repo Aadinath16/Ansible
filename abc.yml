@@ -1,0 +1,4 @@
+---
+  - name: Configure ansible project in git
+    import_playbook: plays/git1.yml
+

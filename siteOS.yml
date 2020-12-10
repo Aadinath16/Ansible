@@ -1,0 +1,4 @@
+---
+  - name: Displaying OS version
+    import_playbook: plays/OS.yml
+

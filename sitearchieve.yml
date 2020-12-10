@@ -1,0 +1,4 @@
+---
+  - name: Archieving some folders
+    import_playbook: plays/archieve.yml
+

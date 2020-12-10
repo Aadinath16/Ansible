@@ -1,0 +1,3 @@
+---
+  - name: Installing Http server
+    import_playbook: plays/http.yml

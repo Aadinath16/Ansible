@@ -1,0 +1,5 @@
+---
+  - name: Extracting the compressed files
+    hosts: localhost
+    roles:
+     - { role: unzip }

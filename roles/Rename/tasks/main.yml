@@ -1,0 +1,16 @@
+---
+# tasks file for Rename
+  - name: Creating directory
+    file:
+       path: /home/adinath/Create
+       state: directory
+   
+  - name: Renaming Directory
+    command: mv /home/adinath/Create /home/adinath/renamed
+  
+  - name: Showing list of Directory
+    command : ls /home/adinath
+    register: list
+
+  - debug: 
+       msg: "{{ list }}"

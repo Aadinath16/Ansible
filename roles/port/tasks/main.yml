@@ -1,0 +1,16 @@
+---
+# tasks file for port
+  - name: Showing port22 running or not
+    command: firewall-cmd --zone=public --add-port=22/tcp --permanent
+    register: cp1
+
+  - debug:
+        msg: "{{ cp1 }}"
+
+  - name: To check the status of firewallD
+    command: systemctl status firewalld
+    register: cp2
+
+  - debug:
+       msg: "{{ cp2.stdout }}"
+
